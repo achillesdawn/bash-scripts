@@ -35,7 +35,7 @@ function install_helix() {
 
 function install_zellij() {
     local VERSION=v0.40.1
-    local FILENAME=zellij-aarch64-unknown-linux-musl
+    local FILENAME=zellij-x86_64-unknown-linux-musl
     local TARNAME=${FILENAME}.tar.gz
 
     cd /usr/local || exit
