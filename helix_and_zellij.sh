@@ -49,8 +49,6 @@ function install_zellij() {
 
     rm $TARNAME
 
-    cd $FILENAME || exit
-
     check_if_ln_exists /usr/local/bin/zellij
 
     ln -sr ./zellij /usr/local/bin
