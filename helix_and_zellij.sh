@@ -11,8 +11,8 @@ function check_if_ln_exists() {
 
 
 function install_helix() {
-    local VERSION=24.03
-    local FILENAME=helix-24.03-x86_64-linux
+    local VERSION=25.01.1
+    local FILENAME=helix-25.01.1-x86_64-linux
     local TARNAME=${FILENAME}.tar.xz
 
     cd /usr/local || exit
@@ -34,7 +34,7 @@ function install_helix() {
 }
 
 function install_zellij() {
-    local VERSION=v0.40.1
+    local VERSION=v0.41.2
     local FILENAME=zellij-x86_64-unknown-linux-musl
     local TARNAME=${FILENAME}.tar.gz
 
